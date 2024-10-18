@@ -1,6 +1,7 @@
 import React from 'react';
 import './Ultimatesale.css';
 
+
 const Ultimatesale = () => {
   return (
     <div className='container d-flex flex-wrap m-5 p-5 ms-5'>
@@ -14,6 +15,7 @@ const Ultimatesale = () => {
         <div className="col-12"><img src='./images/img-3.png' alt='...' className='img-3'/></div>
       </div>
       <div className="col-md-3 bg-gray ms-5 p-3 div-3"><img src='./images/img-4.png' alt='...' className='img-4'/></div>
+      <div className="col-1"><img src='./images/icon.png' alt='...' className='cart-icon ms-3'/></div>
     </div>
   );
 }

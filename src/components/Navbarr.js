@@ -12,7 +12,7 @@ const Navbarr = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-              <li className="nav-item ps-3 ms-1">
+              <li className="nav-item ps-3 ms-3">
                 <a className="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item ps-3">

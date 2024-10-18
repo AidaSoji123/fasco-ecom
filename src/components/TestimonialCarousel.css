@@ -1,0 +1,47 @@
+/* Styling the carousel container */
+.carousel-container {
+  padding: 40px 0;
+}
+
+/* Testimonial card styling */
+.testimonial-card {
+  display: flex;
+  align-items: center; /* Centers the image and content vertically */
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Image styling */
+.testimonial-card img {
+   width: 200px;
+  height: 180px;
+  object-fit: cover;
+  margin-right: 20px; /* Adds space between the image and content */
+}
+
+/* Testimonial content styling */
+.testimonial-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-content {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.star{
+  color: orange;
+}

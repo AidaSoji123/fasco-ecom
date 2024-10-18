@@ -1,0 +1,31 @@
+/* NewarrivalGrid.css */
+.product-card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-card img {
+  object-fit: cover;
+  height: 250px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Increase star size */
+.star-container i {
+  font: size 2.25em;; /* You can adjust this value as needed */
+}
+
+/* Ensure "Almost Sold Out!" is aligned to the right */
+.almost-sold-out {
+  font-size: 1rem;  /* Optional: Change font size if needed */
+ 
+  margin-left: 10px;
+}
+
+.product-card .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

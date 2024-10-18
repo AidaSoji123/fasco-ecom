@@ -1,0 +1,24 @@
+/* Shape for the text section */
+.square {
+  border-bottom: 570px solid rgb(204, 200, 200); /* Bottom border with color */
+  border-left: 125px solid transparent;          /* Transparent left border for the shape */
+  height: 0px;                                   /* Height is 0 to create a trapezoid */
+  width: 750px;                                  /* Define the width of the box */
+  position: relative;                            /* Allow positioning of inner content */
+}
+
+/* Optional text styling */
+.text-gray {
+  color: gray;
+}
+
+.img7 {
+ 
+  height: 570px;
+  position: relative;
+  top: 0px;
+  right: 200px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
