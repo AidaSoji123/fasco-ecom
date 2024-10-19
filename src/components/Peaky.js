@@ -3,14 +3,14 @@ import "./Peaky.css";
 
 const Peaky = () => {
   return (
-    <div className="container d-flex p-5 m-5 pe-3 ps-3">
+    <div className="container-fluid d-flex p-5 mt-5 ">
       {/* Image Section */}
-      <div className="col-md-5 ps-3  me-5">
-        <img src="./images/img7.png" alt="Peaky Blinders Collection" className="img7 me-5" />
+      <div className="col-md-5 me-2">
+        <img src="./images/img7.png" alt="Peaky Blinders Collection" className="img7" />
       </div>
 
       {/* Text Section with the custom parallelogram shape */}
-      <div className="col-md-6 me-5 square ms-5 me-3">
+      <div className="col-md-6 me-5 square ms-5 me-3 d-none d-lg-block">
         <br /><br />
         <div className="content ps-3 " >
         <p className="text-gray">Women Collection</p><br></br>

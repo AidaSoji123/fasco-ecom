@@ -3,7 +3,8 @@ import DealsCarousel from "../components/DealsCarousel";
 
 const Deals = () => {
   return (
-    <div>
+    <div className="ms-5">
+      
       <DealsCarousel />
     </div>
   );

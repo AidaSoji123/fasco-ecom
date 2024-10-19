@@ -1,24 +1,39 @@
 /* Shape for the text section */
 .square {
-  border-bottom: 570px solid rgb(204, 200, 200); /* Bottom border with color */
-  border-left: 125px solid transparent;          /* Transparent left border for the shape */
-  height: 0px;                                   /* Height is 0 to create a trapezoid */
-  width: 750px;                                  /* Define the width of the box */
-  position: relative;                            /* Allow positioning of inner content */
+  border-bottom: 570px solid rgb(204, 200, 200); 
+  border-left: 125px solid transparent;          
+  height: 0px;                                  
+  width: 750px;                                 
+  position: relative;                           
 }
 
-/* Optional text styling */
+
 .text-gray {
   color: gray;
 }
 
-.img7 {
- 
-  height: 570px;
+/* .img7 {
+  object-fit: cover;
+  height: 100%; 
+
   position: relative;
-  top: 0px;
-  right: 200px;
-  gap: 0px;
-  opacity: 0px;
-  
-}
+  right: 45%;
+      } */
+   
+      .img7 {
+        object-fit: cover;
+        width: 200%; /* Ensures the image takes the full width of its container */
+        height: auto; /* Keeps the aspect ratio while allowing the height to adjust */
+        position: relative;
+        right: 45%; /* Avoids hardcoded positioning, allowing natural flow */
+      }
+      
+      /* Media query for smaller screens */
+      @media (max-width: 768px) {
+        .img7 {
+          width: 100%;  /* Ensure it adjusts to smaller screens */
+          max-height: 300px;  /* Set a reasonable max height for small devices */
+          margin-left: 100px;
+        }
+      }
+      

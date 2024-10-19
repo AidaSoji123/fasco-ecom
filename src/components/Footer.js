@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer mt-5 pt-5">
       <div className="footer-container">
         <div className="footer-brand">
           <img src='./images/FASCO.png' alt='...' className='ps-5 ms-5'/>

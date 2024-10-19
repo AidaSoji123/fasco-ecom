@@ -1,32 +1,28 @@
 import React from "react";
+// import './Subscription.css'; // Optional for any custom styles
 
 const Subscription = () => {
   return (
-    <div>
-      <br /><br /><br />
-      <div className="d-flex ms-5 mt-5 mb-5">
-        <div className="col-md-3 pe-5 p-5">
-          <img src="./images/sb1.png" alt="..." />
+    <div className="container my-5">
+      <div className="row align-items-center">
+        {/* Left Image Section */}
+        <div className="col-md-3 col-12 text-center mb-3">
+          <img src="./images/sb1.png" alt="Subscription Icon" className="img-fluid" />
         </div>
 
-        <div className="col-md-5 mt-5 mb-5">
-          <br />
-          <br /><br/><br/><br/>
-          <center>
-            <h1 className="mt-5">Subscribe To Our Newsletter</h1>
-            <p className="ps-5 pe-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
-              amet lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              
-            </p>
-          </center>
-          <br/>
-          <h5 className="ps-5 pe-5">michael@ymail.com</h5>
-          <center><button className="btn btn-dark mt-5 mb-5 pe-5 ps-5 p-2">Subscribe Now</button></center>
+        {/* Subscription Text Section */}
+        <div className="col-md-6 col-12  mb-3">
+          <h1 className="mt-3 text-center">Subscribe To Our Newsletter</h1>
+          <p className="px-3 text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sit amet lorem ipsum
+          </p>
+         <h5 className="ps-5 mt-5 mb-5">michael@ymail.com</h5>
+          <center><button className="btn btn-dark mt-3 mb-5 ">Subscribe Now</button></center>
         </div>
-<br /><br />
-        <div className="col-md-2 me-5 mt-5">
-          <img src="./images/sb2.png" alt="..." />
+
+        {/* Right Image Section */}
+        <div className="col-md-3 col-12 text-center mb-3">
+          <img src="./images/sb2.png" alt="Subscription Icon" className="img-fluid" />
         </div>
       </div>
     </div>

@@ -96,12 +96,13 @@ const NewarrivalGrid = () => {
               </div>
             </Card.Body>
           </Card>
+          
         </div>
       ))}
 
-
+<center><button className='btn btn-dark ps-3 pe-3 p-2 mb-3 mt-5 me-4 ms-5'>View More</button></center>
     </div>
-<center><button className='btn btn-dark ps-5 pe-5 p-3 mb-3'>View More</button></center>
+
     </>
   );
 };
