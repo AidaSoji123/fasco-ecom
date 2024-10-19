@@ -9,7 +9,7 @@ const Subscription = () => {
           <img src="./images/sb1.png" alt="..." />
         </div>
 
-        <div className="col-md-6 mt-5 mb-5">
+        <div className="col-md-5 mt-5 mb-5">
           <br />
           <br /><br/><br/><br/>
           <center>
@@ -17,7 +17,7 @@ const Subscription = () => {
             <p className="ps-5 pe-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
               amet lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Lorem ipsum dolor sit amet, 
+              
             </p>
           </center>
           <br/>
@@ -25,7 +25,7 @@ const Subscription = () => {
           <center><button className="btn btn-dark mt-5 mb-5 pe-5 ps-5 p-2">Subscribe Now</button></center>
         </div>
 <br /><br />
-        <div className="col-md-3 me-5 mt-5">
+        <div className="col-md-2 me-5 mt-5">
           <img src="./images/sb2.png" alt="..." />
         </div>
       </div>

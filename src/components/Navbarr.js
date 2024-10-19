@@ -1,37 +1,41 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Navbarr.css';  // Custom styles
 
 const Navbarr = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light p-5 m-5 me-5">
-      <div className="container-fluid ">
-        <img src='./images/FASCO.png' alt='Logo' id='logo-img' className='align-start ms-5'/>
-        {/* <a className="navbar-brand" href="#">Navbar</a> */}
-        <div className='align-items-end pe-5 me-5'>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item ps-3 ms-3">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li className="nav-item ps-3">
-                <a className="nav-link" href="#">Deals</a>
-              </li>
-              <li className="nav-item ps-3">
-                <a className="nav-link" href="#">New Arrivals</a>
-              </li>
-              <li className="nav-item ps-3">
-                <a className="nav-link" href="#">Packages</a>
-              </li>
-              <li className="nav-item ps-3">
-                <a className="nav-link" href="#" tabIndex="-1" aria-disabled="true">Sign In</a>
-              </li>
-              <li className="nav-item ps-3 me-5 pe-0">
-                <button className="btn btn-dark me-5" tabIndex="-1" aria-disabled="true">Sign Up</button>
-              </li>
-            </ul>
-          </div>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light p-3 ms-5 me-5 ps-5 pe-5">
+      <div className="container-fluid">
+        {/* Logo */}
+        <img src='./images/FASCO.png' alt='Logo' id='logo-img' className='navbar-brand ms-5 ps-5' />
+
+        {/* Toggle button for mobile view */}
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        {/* Navigation Links */}
+        <div className="collapse navbar-collapse pe-5" id="navbarNav">
+          <ul className="navbar-nav ms-auto align-items-center">
+            <li className="nav-item">
+              <Link to="/" className="nav-link active">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/deals" className="nav-link">Deals</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/newarrivals" className="nav-link">New Arrivals</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/packages" className="nav-link">Packages</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/signin" className="nav-link">Sign In</Link>
+            </li>
+            <li className="nav-item pe-5">
+              <Link to="/signup" className="btn btn-dark">Sign Up</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

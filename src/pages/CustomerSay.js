@@ -1,12 +1,12 @@
-import React from 'react';
-import TestimonialCarousel from '../components/TestimonialCarousel';
+import React from "react";
+import TestimonialCarousel from "../components/TestimonialCarousel";
 
 const CustomerSay = () => {
   return (
     <div>
-      <TestimonialCarousel/>
+      <TestimonialCarousel />
     </div>
   );
-}
+};
 
 export default CustomerSay;

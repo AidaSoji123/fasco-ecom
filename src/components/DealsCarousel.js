@@ -31,9 +31,9 @@ const DealsCarousel = () => {
   });
 
   return (
-    <div className="deals-carousel">
-      <div className="container my-5">
-        <div className="row">
+    <div className="deals-carousel pt-5 mb-5">
+      <div className="container my-5 ms-5 mt-5 ps-5">
+        <div className="row ms-4 p-2">
           <div className="col-md-6 text-left">
             <h2>Deals Of The Month</h2>
             <p>
@@ -41,11 +41,11 @@ const DealsCarousel = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper ultricies est.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper ultricies est.
             </p>
-            <button className="btn btn-dark">Buy Now</button>
-            <div className="timer mt-4">
-              <h5>Hurry, Before It's Too Late!</h5> <br/>
-              <div className="d-flex time-container col-6">
-                <div className="time-box col-6">
+            <button className="btn btn-dark mt-3 mb-3">Buy Now</button>
+            
+              <div><h5>Hurry, Before It's Too Late!</h5></div>
+              <div className="d-flex time-container mt-5">
+                <div className="time-box ms-0 ">
                   <span>{timeLeft.days || '00'}</span>
                   <p>Days</p>
                 </div>
@@ -62,13 +62,13 @@ const DealsCarousel = () => {
                   <p>Sec</p>
                 </div>
               </div>
-            </div>
+          
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 ">
             <Carousel indicators={true} controls={true}>
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
+                  className=" cimg"
                   src="./images/a1.png"
                   alt="First slide"
                 />
@@ -79,7 +79,7 @@ const DealsCarousel = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
+                  className="cimg"
                   src="./images/a2.png"
                   alt="Second slide"
                 />
@@ -90,7 +90,7 @@ const DealsCarousel = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100 "
+                  className="cimg"
                   src="./images/a3.png"
                   alt="Third slide"
                 />

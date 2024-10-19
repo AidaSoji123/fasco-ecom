@@ -1,12 +1,12 @@
-import React from 'react';
-import Instagram from '../components/Instagram';
+import React from "react";
+import Instagram from "../components/Instagram";
 
 const FollowInsta = () => {
   return (
     <div>
-        <Instagram/>
+      <Instagram />
     </div>
   );
-}
+};
 
 export default FollowInsta;
